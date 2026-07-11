@@ -74,3 +74,60 @@ header section h2{
     text-align: center;
     margin: 0 auto 256px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 80%;
+    margin: 100px auto;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.sec-header{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.speaker-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.speaker-card{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+.speaker-img{
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.speaker-identity{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.spciality{
+    color: #2563eb;
+    font-size: 12px;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.pj {
+    font-size: 14px;
+}
