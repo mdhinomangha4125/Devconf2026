@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Donference</title>
     <link rel="stylesheet" href="./styles.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+/>
 </head>
 
 <body>
@@ -72,16 +76,18 @@
             </div>
         </section>
         <section>
-            <h2>Secure Your Spot</h2>
-            <p>Early-bird pricing ends August 15, 2026.</p>
-            <div>
-                <div>
-                    <div>
-                        <span>Standard</span>
-                        <span>$399</span>
-                        <span>per person</span>
+            <div class="pur-head-con">
+                <h2 class="purchase-head">Secure Your Spot</h2>
+                <p>Early-bird pricing ends August 15, 2026.</p>
+            </div>
+            <div class="purchase-card-container">
+                <div class="purchase-card">
+                    <div class="price-div">
+                        <span class="price-q">Standard</span>
+                        <span class="price">$399</span>
+                        <span class="p-q">per person</span>
                     </div>
-                    <ul>
+                    <ul class="featureofpurchase">
                         <li>Access to all 3 conference days</li>
                         <li>48 curated technical talks</li>
                         <li>2 workshop sessions</li>
@@ -89,13 +95,62 @@
                         <li>Conference swag bag</li>
                         <li>Digital recordings (30 days)</li>
                     </ul>
-                    <button>Get Standard</button>
+                    <button style="background-color: white; border: 1px solid #2563EB; color: #2563EB;" class="un-btn">Get Standard</button>
+                </div>
+                <div class="purchase-card" style="background-color: #0D1B2A;">
+                    <div class="price-div">
+                        <span class="price-q" style="color: #93C5FD;">Pro</span>
+                        <span class="price" style="color: #FFF;">$749</span>
+                        <span class="p-q" style="color: rgba(255, 255, 255, 0.5);">per person</span>
+                    </div>
+                    <ul class="featureofpurchase" id="h-pur-card-list" style="color: rgba(255, 255, 255, 0.8);">
+                        <li>Everything in Standard</li>
+                        <li>Unlimited workshop access</li>
+                        <li>Speaker meet & greet</li>
+                        <li>VIP networking dinner</li>
+                        <li>Lifetime recording access</li>
+                        <li>1-on-1 mentorship (30 min)</li>
+                    </ul>
+                    <button  class="un-btn">Get Pro</button>
+                </div>
+                <div class="purchase-card">
+                    <div class="price-div">
+                        <span class="price-q">Team</span>
+                        <span class="price">$5,999</span>
+                        <span class="p-q">up to 10 people</span>
+                    </div>
+                    <ul class="featureofpurchase">
+                        <li>Everything in Pro (10 seats)</li>
+                        <li>Dedicated team lounge access</li>
+                        <li>Private workshop booking</li>
+                        <li>Company logo on event page</li>
+                        <li>Recruitment booth (1 day)</li>
+                        <li>Priority customer support</li>
+                    </ul>
+                    <button style="background-color: white; border: 1px solid #2563EB; color: #2563EB;" class="un-btn">Contact Us</button>
                 </div>
             </div>
         </section>
         <section></section>
     </main>
-    <footer></footer>
+    <footer>
+  <div class="footer-top">
+    <a href="#"><div class="footer-logo"></div></a>
+
+    <ul class="social-links">
+      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <p class="copyright">
+    &copy; 2026 Your Company. All rights reserved.
+  </p>
+</footer>
 </body>
 
 </html>
