@@ -93,11 +93,6 @@ main section{
     gap: 48px;
     width: 100%;
 }
-.sec-header{
-    text-align: center;
-    font-size: 32px;
-    font-weight: 600;
-}
 
 .speaker-details{
     display: grid;
@@ -145,11 +140,11 @@ main section{
     gap: 10px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 32px;
 }
-.purchase-head{
+.uv-head{
     font-size: 48px;
     font-weight: bold;
-    color: #0D1B2A;
 }
 .purchase-card{
     display: flex;
@@ -201,61 +196,100 @@ main section{
     font-size: 14px;
 }
 .featureofpurchase li::before {
-  content: "•";
-  color: #2563EB;
-  margin-right: 10px;
+    content: "•";
+    color: #2563EB;
+    margin-right: 10px;
 }
 #h-pur-card-list li::before {
     content: "•";
     color:#60A5FA;
 }
 
+.venue-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+    align-items: center;
+    margin-top: 60px;
+}
 
+
+.venue-info li{
+    margin-bottom:12px;
+    list-style: none;
+    font-weight: 600;
+}
+
+
+details{
+    border:1px solid #ddd;
+    border-radius:10px;
+    margin-bottom:18px;
+    padding:20px;
+}
+
+summary{
+    cursor:pointer;
+    font-size:18px;
+    font-weight:600;
+}
+
+details p{
+    margin-top:15px;
+    color:#555;
+    line-height:1.7;
+}
 footer {
-  padding: 40px 20px;
-  background-color: #0D1B2A;
-  color: #fff;
+    padding: 40px 20px;
+    background-color: #0D1B2A;
+    color: #fff;
 }
 
 .footer-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
-
+.footer-logo-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
 .footer-logo {
     background-image: url(./assets/logo-mini.png);
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .social-links {
-  display: flex;
-  gap: 16px;
-  list-style: none;
+    display: flex;
+    gap: 16px;
+    list-style: none;
 }
 
 .social-links a {
-  color: #fff;
-  font-size: 20px;
+    color: #fff;
+    font-size: 20px;
 }
 
 .social-links a:hover {
-  color: #38bdf8;
+    color: #2563EB;
 }
 
 hr {
-  margin: 30px 0 20px;
-  border: none;
-  border-top: 1px solid #93C5FD;
+    margin: 30px 0 20px;
+    border: none;
+    border-top: 1px solid #2563EB;
 }
 
 .copyright {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #9ca3af;
+    text-align: center;
+    font-size: 14px;
+    color: #9ca3af;
 }
