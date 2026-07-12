@@ -18,7 +18,7 @@ nav div{
     gap: 4px;
 }
 .logo{
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(./assets/logo-mini.png);
+    background-image: url(./assets/logo-mini.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -55,7 +55,7 @@ nav ul li a{
 }
 
 header section{
-    background-image: url(./assets/banner.jpg);
+    background-image: linear-gradient(to right, rgba(0,0,0, 0.5), rgba(0,0,0,0)), url(./assets/banner.jpg);
     height: 720px;
     width: 100%;
     background-position: center;
