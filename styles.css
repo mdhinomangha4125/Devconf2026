@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 nav{
     display: flex;
@@ -17,7 +18,7 @@ nav div{
     gap: 4px;
 }
 .logo{
-    background-image: url(./assets/logo-mini.png);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(./assets/logo-mini.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -26,7 +27,7 @@ nav div{
     border-radius: 8px;
 }
 nav div h1{
-    font-size: 16px;
+    font-size: 13px;
 }
 nav ul{
     display: flex;
@@ -40,6 +41,7 @@ nav ul li a{
     text-decoration: none;
     color: #575757;
     font-weight: 500;
+    font-size: 12px;
 }
 
 .un-btn{
@@ -175,7 +177,7 @@ main section{
 }
 .p-q{
     color: #888888;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .purchase-card-container{
@@ -191,15 +193,18 @@ main section{
     color: #333333;
     gap: 10px;
 }
+
 .featureofpurchase li{
     list-style: none;
-    font-size: 14px;
+    font-size: 12px;
 }
+
 .featureofpurchase li::before {
     content: "•";
     color: #2563EB;
     margin-right: 10px;
 }
+
 #h-pur-card-list li::before {
     content: "•";
     color:#60A5FA;
@@ -213,13 +218,11 @@ main section{
     margin-top: 60px;
 }
 
-
 .venue-info li{
     margin-bottom:12px;
     list-style: none;
     font-weight: 600;
 }
-
 
 details{
     border:1px solid #ddd;
@@ -239,6 +242,7 @@ details p{
     color:#555;
     line-height:1.7;
 }
+
 footer {
     padding: 40px 20px;
     background-color: #0D1B2A;
@@ -251,6 +255,7 @@ footer {
     align-items: center;
     gap: 20px;
 }
+
 .footer-logo-con{
     display: flex;
     justify-content: center;
@@ -258,6 +263,7 @@ footer {
     gap: 4px;
     cursor: pointer;
 }
+
 .footer-logo {
     background-image: url(./assets/logo-mini.png);
     width: 22px;
